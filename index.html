@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KaTik</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div id="bersebelahan">
+        <span>KATIK</span>
+        <span>Kalkulator Cantiks</span>
+      </div>
+            <div class="welcome">
+                <h2>WELCOME TO KATIK</h2>
+                <h3 id="judul">Hai Sobat, selamat datang di KATIK :) </h3>
+                <p id="teks">Sebuah WEB sederhana yang berfungsi untuk menghitung nilai luas dan keliling bangunan datar</p>
+            </div>
+    <!--INI HITUNG LUAS PERSEGI-->
+            <header class="luasPersegi">
+                    <h1>Luas Persegi</h1>
+                    </header>
+                    <div class="img">
+                        <img src="img/persegi.png" alt="gambar" class="image">
+                    </div>
+                <div id="Hitung">Rumus Luas Persegi Yaitu :</div>
+                <div id="Rumus">L = S X S</div>
+                <p>Dimana :</p>
+                <div>L = Luas</div>
+                <div>S = Sisi</div>
+                <div class="garis">
+                    <hr>
+                </div>
+                    <section class="luasInputSection">
+                        <label for="inputField">Hitung Luas Persegi</label>
+                        <input type="number" id="inputField" placeholder="Masukan Nilai">
+                    </section>
+                    <section class="inputButton">
+                        <button onclick="hitungLuas()">Hitung</button>
+                        <button id="resetButton">Reset</button>
+                    </section>
+                    <div class="hasil">
+                    <p>L = S X S </p>
+                    <p>L = <span id="sisiValue1">...</span> x <span id="sisiValue2">...</span></p>
+                    <p>Luas Persegi adalah: <span id="luas"></span></p>
+                    </div>
+                  
+    <!--INI HITUNG KELILING PERSEGI-->
+                    <header class="KelilingPersegi">
+                        <h1>Keliling Persegi</h1>
+                        </header>
+                        <div class="img">
+                            <img src="img/persegi.png" alt="gambar" class="image">
+                        </div>
+                    <div id="Hitung">Rumus Keliling Persegi Yaitu :</div>
+                    <div id="Rumus">K = 4 X S</div> 
+                    <p>Dimana :</p>
+                    <div>K = Keliling</div>
+                    <div>S = Sisi</div>
+                    <div class="garis">
+                        <hr>
+                    </div>
+                        <section class="kelilingInputSection">
+                            <label for="kelilingInputField">Hitung Keliling Persegi</label>
+                            <input type="number" id="kelilingInputField" placeholder="Masukan Nilai">
+                        </section>
+                        <section class="inputButton">
+                            <button onclick="hitungKeliling()">Hitung</button>
+                            <button onclick="resetKeliling()">Reset</button>
+                        </section>
+                        <p class="kelilingHasil">Keliling Persegi adalah: <span id="kelilingResult"></span></p>
+                        <script src="js/script.js"></script>
+</body>
+</html>
