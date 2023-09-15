@@ -1,6 +1,3 @@
-# Assigment_RevoU
-This is assigment from RevoU
-
 <body>
     <h1>ABOUT ME</h1>
     <p>Hello it's me Tubagus, I love Learning about IT for example this is my first project from RevoU but sorry this is too bad :(</p>
